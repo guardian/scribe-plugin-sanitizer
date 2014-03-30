@@ -1,7 +1,7 @@
 // UMD
 (function (root, factory) {
   if (typeof define === 'function' && define.amd) {
-    define('html-janitor',factory);
+    define('html-janitor', [], factory);
   } else {
     root.amdWeb = factory();
   }
