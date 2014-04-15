@@ -1,9 +1,11 @@
 define([
   'html-janitor',
-  'lodash-modern/objects/assign'
+  'lodash-modern/objects/merge',
+  'lodash-modern/objects/cloneDeep'
 ], function (
   HTMLJanitor,
-  extend
+  merge,
+  cloneDeep
 ) {
 
   /**
@@ -17,12 +19,10 @@ define([
     // We extend the config to let through Scribe position markers,
     // otherwise we lose the caret position when running the Scribe
     // content through this sanitizer.
-    var tags = config && config.tags;
-    var em   = tags   && tags.em;
-    var configAllowMarkers = extend({}, config, {
-      tags: extend({}, tags, {
-        em: extend({}, em, {class: 'scribe-marker'})
-      })
+    var configAllowMarkers = merge(cloneDeep(config), {
+      tags: {
+        em: {class: 'scribe-marker'}
+      }
     });
 
     return function (scribe) {
