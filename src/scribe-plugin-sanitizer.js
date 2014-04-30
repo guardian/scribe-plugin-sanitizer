@@ -28,7 +28,7 @@ define([
     return function (scribe) {
       var janitor = new HTMLJanitor(configAllowMarkers);
 
-      scribe.htmlFormatter.formatters.push(janitor.clean.bind(janitor));
+      scribe.htmlFormatter.formatters.sanitize.push(janitor.clean.bind(janitor));
     };
   };
 
