@@ -13,7 +13,7 @@ var write     = require('plumber-write');
 module.exports = function (pipelines) {
   var sanitizerPluginRequireJS = requireJS({
     paths: {
-      'html-janitor':  '../bower_components/html-janitor/src/html-janitor',
+      'html-janitor':  '../bower_components/html-janitor/html-janitor',
       'lodash-modern': '../bower_components/lodash-amd/modern'
     }
   });
