@@ -2,6 +2,6 @@
   "name": "scribe-plugin-sanitizer",
   "dependencies": {
     "html-janitor": "0.3.0",
-    "lodash-amd": "2.4.0"
+    "lodash-amd": "2.4.1"
   }
 }
