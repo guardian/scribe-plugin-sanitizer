@@ -3,5 +3,6 @@
   "dependencies": {
     "html-janitor": "0.3.0",
     "lodash-amd": "2.4.1"
-  }
+  },
+  "version": "0.1.3"
 }
