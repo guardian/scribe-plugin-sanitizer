@@ -14,7 +14,7 @@ module.exports = function (pipelines) {
   var sanitizerPluginRequireJS = requireJS({
     paths: {
       'html-janitor':  '../bower_components/html-janitor/html-janitor',
-      'lodash-modern': '../bower_components/lodash-amd/modern'
+      'lodash-amd': '../bower_components/lodash-amd'
     }
   });
 
