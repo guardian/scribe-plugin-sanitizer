@@ -1,5 +1,10 @@
 {
   "name": "scribe-plugin-sanitizer",
+  "version": "0.1.2",
+  "main": "src/scribe-plugin-sanitizer.js",
+  "dependencies": {
+    "lodash-amd": "~2.4.1"
+  },
   "devDependencies": {
     "plumber": "~0.3.0",
     "plumber-all": "~0.3.0",
@@ -7,5 +12,9 @@
     "plumber-requirejs": "~0.3.0",
     "plumber-uglifyjs": "~0.3.0",
     "plumber-write": "~0.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/guardian/scribe-plugin-sanitizer.git"
   }
 }
