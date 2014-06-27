@@ -1,6 +1,6 @@
 {
   "name": "scribe-plugin-sanitizer",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "main": "src/scribe-plugin-sanitizer.js",
   "dependencies": {
     "html-janitor": "~0.2.0",
