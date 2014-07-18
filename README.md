@@ -26,4 +26,4 @@ require(['scribe', 'scribe-plugin-sanitizer'], function (Scribe, scribePluginSan
 });
 ```
 
-It uses the same format of options as [html-janitor](https://github.com/guardian/html-janitor). To whitelist a tag, specify `true` for it. To whitelisted specific attributes or even specific values, use an object.
+It uses the same format of options as [html-janitor](https://github.com/guardian/html-janitor). To whitelist a tag, specify `true` for it. To whitelist specific attributes or even specific values, use an object.
