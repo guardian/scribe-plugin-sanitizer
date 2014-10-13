@@ -21,7 +21,7 @@ define([
     // content through this sanitizer.
     var configAllowMarkers = merge(cloneDeep(config), {
       tags: {
-        em: {class: 'scribe-marker'}
+        em: {'class': 'scribe-marker'}
       }
     });
 
