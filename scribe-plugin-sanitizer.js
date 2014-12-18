@@ -1802,7 +1802,7 @@ define('scribe-plugin-sanitizer',[
     // content through this sanitizer.
     var configAllowMarkers = merge(cloneDeep(config), {
       tags: {
-        em: {class: 'scribe-marker'}
+        em: {'class': 'scribe-marker'}
       }
     });
 
@@ -1814,5 +1814,6 @@ define('scribe-plugin-sanitizer',[
   };
 
 });
+
 
 //# sourceMappingURL=scribe-plugin-sanitizer.js.map
