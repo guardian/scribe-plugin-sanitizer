@@ -16,12 +16,14 @@ define([
   'use strict';
 
   return function (config) {
-    // We extend the config to let through Scribe position markers,
-    // otherwise we lose the caret position when running the Scribe
-    // content through this sanitizer.
+    // We extend the config to let through (1) Scribe position markers,
+    // otherwise we lose the caret position when running the Scribe content
+    // through this sanitizer, and (2) BR elements which are needed by the
+    // browser to ensure elements are selectable.
     var configAllowMarkers = merge(cloneDeep(config), {
       tags: {
-        em: {'class': 'scribe-marker'}
+        em: {class: 'scribe-marker'},
+        br: {}
       }
     });
 
