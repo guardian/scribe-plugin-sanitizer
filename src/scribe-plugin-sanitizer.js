@@ -1,7 +1,7 @@
 define([
   'html-janitor',
-  'lodash-amd/modern/objects/merge',
-  'lodash-amd/modern/objects/cloneDeep'
+  'lodash-amd/modern/object/merge',
+  'lodash-amd/modern/lang/cloneDeep'
 ], function (
   HTMLJanitor,
   merge,
