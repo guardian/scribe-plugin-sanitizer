@@ -1,3 +1,7 @@
+# 0.1.8
+
+Updates Lodash version to 3.5.0
+
 # 0.1.7
 
 Whitelist BR elements due to the way they are used in Scribe. If they scrubbed out then a lot of things start to fail in strange ways.
