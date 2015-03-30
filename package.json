@@ -4,7 +4,7 @@
   "main": "src/scribe-plugin-sanitizer.js",
   "dependencies": {
     "html-janitor": "~0.2.0",
-    "lodash-amd": "~2.4.1"
+    "lodash-compat": "~3.5.0"
   },
   "devDependencies": {
     "plumber": "~0.4.0",
