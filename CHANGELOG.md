@@ -1,3 +1,9 @@
+# 0.1.9
+
+Bumps the HTML Janitor version to 1.0.1 to be more module friendly
+
+Contribution from [Steven Hauser](https://github.com/stevenhauser)
+
 # 0.1.8
 
 Updates Lodash version to 3.5.0
