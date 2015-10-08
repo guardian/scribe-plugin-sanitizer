@@ -1,3 +1,7 @@
+# 0.1.10
+
+Bumps the version of HTML Janitor to 2.0.2 to allow validation functions to be used in the Sanitizer.
+
 # 0.1.9
 
 Bumps the HTML Janitor version to 1.0.1 to be more module friendly
