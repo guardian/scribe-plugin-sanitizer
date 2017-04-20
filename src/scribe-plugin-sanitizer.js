@@ -28,8 +28,7 @@ define([
     });
 
     return function (scribe) {
-      var janitor = new HTMLJanitor(configAllowMarkers);
-
+      var janitor = new HTMLJanitor.amdWeb(configAllowMarkers);
       scribe.registerHTMLFormatter('sanitize', janitor.clean.bind(janitor));
     };
   };
