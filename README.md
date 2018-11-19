@@ -1,5 +1,7 @@
 # scribe-plugin-sanitizer
 
+**NB: this project is no longer distributed over Bower. Please use npm for future versions
+
 ## Installation
 
 ```
