@@ -22,7 +22,7 @@ define([
     // browser to ensure elements are selectable.
     var configAllowMarkers = merge(cloneDeep(config), {
       tags: {
-        em: {class: 'scribe-marker'},
+        em: {'class': 'scribe-marker'},
         br: {}
       }
     });
